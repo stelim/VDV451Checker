@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VDV451Checker": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\temp\\20231130_VDV452_FGI_Testexport_INIT\\20231130_BUS_202_ab_10.12.2023\\"
+    }
+  }
+}
