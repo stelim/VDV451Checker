@@ -10,3 +10,4 @@ Aufruf ```.\VDV451Checker.exe <Pfad>```
 Prüft enthaltene .x10-Dateien im Verzeichnis auf Einhaltung der Richtlinien nach VDV-Schrift 451.
 Fahrplan-Export nach VDV452 wird beispielsweise in diesem Format zwischen Systemen ausgetauscht.
 
+![Demo](https://github.com/stelim/VDV451Checker/blob/master/VDV451-Checker.gif)
