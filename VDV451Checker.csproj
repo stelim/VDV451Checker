@@ -2,18 +2,34 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageProjectUrl>stelim.de</PackageProjectUrl>
     <PackageReleaseNotes>Alpha-Version</PackageReleaseNotes>
-    <FileVersion>0.0.1.1</FileVersion>
+    <FileVersion>0.0.1.2</FileVersion>
     <StartupObject></StartupObject>
+    <Title>VDV451 Checker</Title>
+    <Description>Prüfung von i10 Dateien auf Konformität mit VDV451</Description>
+    <RepositoryUrl>https://github.com/stelim/VDV451Checker</RepositoryUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <ApplicationIcon>vdv451.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="vdv451.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="30.0.1" />
     <PackageReference Include="Spectre.Console" Version="0.47.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
